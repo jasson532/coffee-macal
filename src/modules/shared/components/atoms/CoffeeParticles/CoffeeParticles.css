@@ -1,0 +1,20 @@
+.coffee-particles {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.coffee-particles--hero {
+  pointer-events: auto;
+}
+
+.coffee-particles--ambient {
+  opacity: 0.6;
+}
+
+.coffee-particles--steam {
+  opacity: 0.8;
+}
