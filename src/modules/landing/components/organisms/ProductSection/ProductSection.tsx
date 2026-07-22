@@ -1,8 +1,7 @@
 import { WHATSAPP_CONFIG, SITE_INFO } from 'modules/shared/constants';
 import { useScrollAnimation } from 'modules/shared/hooks/useScrollAnimation';
 import CoffeeParticles from 'modules/shared/components/atoms/CoffeeParticles';
-import productFront from '../../../../../assets/image/product-front.jpeg';
-import productBack from '../../../../../assets/image/product-back.jpeg';
+import productImage from '../../../../../assets/image/product-1.jpeg';
 import './ProductSection.css';
 
 export default function ProductSection() {
@@ -21,15 +20,13 @@ export default function ProductSection() {
 
         <div ref={layoutRef} className="product__layout fade-in">
           <div className="product__image-wrapper">
-            <div className="product__flip-card">
-              <div className="product__flip-inner">
-                <div className="product__flip-front">
-                  <img src={productFront} alt="Café El Macal - Frente" className="product__flip-img" />
-                </div>
-                <div className="product__flip-back">
-                  <img src={productBack} alt="Café El Macal - Información" className="product__flip-img" />
-                </div>
-              </div>
+            <div className="product__showcase">
+              <img
+                src={productImage}
+                alt="Café El Macal - Empaque"
+                className="product__showcase-img"
+              />
+              <div className="product__showcase-glow" />
             </div>
           </div>
 

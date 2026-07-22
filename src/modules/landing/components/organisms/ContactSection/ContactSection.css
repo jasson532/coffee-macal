@@ -200,13 +200,47 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  .contact__subtitle {
+    font-size: 0.9rem;
+  }
+
   .contact__grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .contact__card {
+    padding: var(--spacing-xl);
+  }
+
+  .contact__card-title {
+    font-size: 1.05rem;
+  }
+
+  .contact__card-text {
+    font-size: 0.82rem;
+  }
+
+  .contact__card-action {
+    font-size: 0.8rem;
   }
 
   .contact__info {
     flex-direction: column;
     gap: var(--spacing-lg);
+    padding: var(--spacing-xl);
+  }
+
+  .contact__info-value {
+    font-size: 0.85rem;
   }
 
   .contact__info-divider {

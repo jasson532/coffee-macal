@@ -122,13 +122,53 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: var(--spacing-2xl) 0 var(--spacing-lg);
+  }
+
   .footer__grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-xl);
+    text-align: center;
+  }
+
+  .footer__brand-name {
+    font-size: 1.4rem;
+  }
+
+  .footer__brand-description {
+    font-size: 0.85rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer__heading {
+    font-size: 1rem;
+  }
+
+  .footer__link {
+    font-size: 0.9rem;
+  }
+
+  .footer__links {
+    align-items: center;
+  }
+
+  .footer__contact-item {
+    font-size: 0.85rem;
+    justify-content: center;
   }
 
   .footer__bottom {
     flex-direction: column;
     text-align: center;
+  }
+
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+
+  .footer__social {
+    justify-content: center;
   }
 }

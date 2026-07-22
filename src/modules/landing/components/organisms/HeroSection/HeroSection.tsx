@@ -11,7 +11,7 @@ interface MediaSlide {
 const SLIDES: MediaSlide[] = [
   { type: 'video', src: '/video/hero-bg-1.mp4' },
   { type: 'video', src: '/video/hero-bg-2.mp4' },
-  { type: 'image', src: '/video/hero-bg-3.jpg' },
+  { type: 'video', src: '/video/hero-bg-3.mp4' },
 ];
 
 const IMAGE_DURATION = 4000; // 4s para la imagen
@@ -124,7 +124,6 @@ export default function HeroSection() {
 
       <div className="container hero__container">
         <div className="hero__content">
-          <span className="hero__badge">☕ Café de Especialidad · Colón, Nariño</span>
           <h1 className="hero__title">
             Café <span className="hero__title-highlight">El Macal</span>
           </h1>

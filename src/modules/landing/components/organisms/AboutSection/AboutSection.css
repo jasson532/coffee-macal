@@ -174,11 +174,48 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .about__title {
+    font-size: 1.6rem;
+  }
+
+  .about__subtitle {
+    font-size: 0.9rem;
+  }
+
   .about__grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .about__card {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  .about__card-icon {
+    font-size: 2rem;
+  }
+
+  .about__card-title {
+    font-size: 1rem;
+  }
+
+  .about__card-text {
+    font-size: 0.82rem;
   }
 
   .about__quote {
-    padding: var(--spacing-2xl) var(--spacing-lg);
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  .about__quote-mark {
+    font-size: 3rem;
+  }
+
+  .about__blockquote {
+    font-size: 0.95rem;
   }
 }
