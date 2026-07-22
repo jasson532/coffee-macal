@@ -2,11 +2,96 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Café El Macal — Café de especialidad 100% colombiano. Cultivado a más de 2.000 metros en Colón, Nariño. Directamente de nuestra finca familiar." />
-    <meta name="theme-color" content="#3D1F0E" />
-    <title>Café El Macal | Café de Especialidad — Colón, Nariño</title>
+
+    <!-- SEO básico -->
+    <title>Café El Macal | Café de Especialidad 100% Colombiano — Colón, Nariño</title>
+    <meta name="description" content="Café El Macal — Café de especialidad 100% colombiano, cultivado a más de 2.000 metros sobre el nivel del mar en El Macal, Colón, Nariño. Variedad Castillo, tierra volcánica, herencia andina. Directamente de nuestra finca familiar. Pedidos por WhatsApp." />
+    <meta name="keywords" content="café colombiano, café de especialidad, café Nariño, Colón Nariño, café El Macal, variedad Castillo, café de altura, café volcánico, café artesanal, café premium Colombia" />
+    <meta name="author" content="Café El Macal — Familia Bolaños" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#B22222" />
+    <meta name="msapplication-TileColor" content="#B22222" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Café El Macal — Café de Especialidad 100% Colombiano" />
+    <meta property="og:description" content="Directamente de nuestra finca familiar en Colón, Nariño. Cultivado a más de 2.000 metros, variedad Castillo, tierra volcánica. Pide el tuyo por WhatsApp." />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Café El Macal — Café de especialidad colombiano de Nariño" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:site_name" content="Café El Macal" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Café El Macal — Café de Especialidad 100% Colombiano" />
+    <meta name="twitter:description" content="Directamente de nuestra finca familiar en Colón, Nariño. Cultivado a más de 2.000 metros. Pide por WhatsApp." />
+    <meta name="twitter:image" content="/og-image.svg" />
+    <meta name="twitter:image:alt" content="Café El Macal — Café de especialidad colombiano" />
+
+    <!-- Datos estructurados (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Café El Macal",
+      "description": "Café de especialidad 100% colombiano. Cultivado a más de 2.000 metros sobre el nivel del mar en El Macal, Colón, Nariño. Variedad Castillo, origen volcánico.",
+      "brand": {
+        "@type": "Brand",
+        "name": "El Macal"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "38000",
+        "priceCurrency": "COP",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Café El Macal",
+          "telephone": "+573173415300",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Colón",
+            "addressRegion": "Nariño",
+            "addressCountry": "CO"
+          }
+        }
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "value": "425",
+        "unitCode": "GRM"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Variedad",
+          "value": "Castillo"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Altitud",
+          "value": "2000+ m.s.n.m."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Origen",
+          "value": "El Macal, Colón, Nariño"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://coffee-macal.vercel.app" />
   </head>
   <body>
     <div id="root"></div>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1A1209"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1209;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#B22222;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#3D2B1F;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="250" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#F2E6C9" text-anchor="middle">☕ Café El Macal</text>
+  <text x="600" y="350" font-family="Georgia, serif" font-size="36" fill="#C8A415" text-anchor="middle" font-style="italic">Donde la tierra volcánica encuentra el cielo</text>
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="28" fill="#F2E6C9" text-anchor="middle" opacity="0.8">Café de Especialidad 100% Colombiano</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="22" fill="#F2E6C9" text-anchor="middle" opacity="0.6">Colón, Nariño · 2.000+ m.s.n.m. · Variedad Castillo · 425g</text>
+  <rect x="0" y="620" width="1200" height="10" fill="#C8A415"/>
+</svg>
